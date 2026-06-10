@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marina Neves | Limpeza de Alojamentos Airbnb</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+--azul:#2563eb;
+--roxo:#7c3aed;
+--azul-claro:#eff6ff;
+--texto:#334155;
+--branco:#ffffff;
+--cinza:#f8fafc;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins', sans-serif;
+color:var(--texto);
+background:var(--branco);
+line-height:1.7;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+section{
+padding:90px 0;
+}
+
+h1,h2,h3{
+line-height:1.2;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:50px;
+}
+
+.section-title h2{
+font-size:2.5rem;
+color:var(--roxo);
+}
+
+/* HEADER */
+
+header{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+background:
+linear-gradient(135deg, rgba(37,99,235,0.92), rgba(124,58,237,0.92)),
+url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.3rem;
+margin-bottom:35px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+background:white;
+color:var(--roxo);
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* SOBRE */
+
+.sobre{
+background:var(--cinza);
+}
+
+.sobre-content{
+max-width:900px;
+margin:auto;
+text-align:center;
+}
+
+.sobre-content p{
+font-size:1.1rem;
+}
+
+/* SERVIÇOS */
+
+.servicos-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:var(--azul);
+margin-bottom:15px;
+}
+
+/* CTA */
+
+.cta{
+background:linear-gradient(135deg,var(--azul),var(--roxo));
+color:white;
+text-align:center;
+}
+
+.cta h2{
+color:white;
+margin-bottom:20px;
+}
+
+.whatsapp-btn{
+display:inline-block;
+margin-top:20px;
+padding:16px 36px;
+background:white;
+color:var(--roxo);
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+}
+
+/* CONTACTOS */
+
+.contactos{
+background:var(--cinza);
+}
+
+.contact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.contact-card{
+background:white;
+padding:30px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.contact-card h3{
+color:var(--roxo);
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2.8rem;
+}
+
+.hero p{
+font-size:1.1rem;
+}
+
+.section-title h2{
+font-size:2rem;
+}
+
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="hero">
+<h1>Marina Neves</h1>
+<p>
+Limpeza profissional de alojamentos Airbnb para hóspedes mais satisfeitos e melhores avaliações.
+</p>
+
+<a href="#contactos" class="btn">
+Pedir Informações
+</a>
+</div>
+</header>
+
+<section class="sobre">
+<div class="container">
+<div class="section-title">
+<h2>Sobre o Serviço</h2>
+</div>
+
+<div class="sobre-content">
+<p>
+A Marina Neves presta serviços especializados de limpeza para alojamentos locais e propriedades Airbnb.
+Garantimos elevados padrões de higiene, atenção ao detalhe e preparação completa do espaço para receber
+os seus hóspedes com a melhor experiência possível.
+</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-title">
+<h2>Serviços Incluídos</h2>
+</div>
+
+<div class="servicos-grid">
+
+<div class="card">
+<h3>Limpeza Completa</h3>
+<p>
+Limpeza profunda de todas as divisões, cozinha, casas de banho e áreas comuns.
+</p>
+</div>
+
+<div class="card">
+<h3>Troca de Roupa de Cama</h3>
+<p>
+Substituição e organização de roupa de cama e toalhas para cada nova reserva.
+</p>
+</div>
+
+<div class="card">
+<h3>Reposição de Consumíveis</h3>
+<p>
+Reposição de papel higiénico, sabonetes, champôs e outros artigos essenciais.
+</p>
+</div>
+
+<div class="card">
+<h3>Check-in e Check-out</h3>
+<p>
+Apoio na receção e saída dos hóspedes para uma gestão mais tranquila do alojamento.
+</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="cta">
+<div class="container">
+<h2>Peça um orçamento personalizado</h2>
+<p>
+Entre em contacto e descubra como podemos cuidar do seu alojamento.
+</p>
+
+<a
+href="https://wa.me/351912345678?text=Olá%20Marina,%20pretendo%20solicitar%20um%20orçamento."
+target="_blank"
+class="whatsapp-btn">
+Pedir Orçamento via WhatsApp
+</a>
+</div>
+</section>
+
+<section id="contactos" class="contactos">
+<div class="container">
+
+<div class="section-title">
+<h2>Contactos</h2>
+</div>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+<h3>Telefone</h3>
+<p>+351 912 345 678</p>
+</div>
+
+<div class="contact-card">
+<h3>Email</h3>
+<p>marinaneves@email.pt</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>
+© 2026 Marina Neves – Limpeza de Alojamentos Airbnb. Todos os direitos reservados.
+</p>
+</footer>
+
+</body>
+</html>
